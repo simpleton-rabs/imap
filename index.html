@@ -10,6 +10,11 @@
     <script src="js/js.js" defer></script>
 
     <!-- <link rel="icon" type="image/x-icon" href="images/favicon.ico" /> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -18,13 +23,34 @@
     </div>
 
     <div id="container">
-        <div id="mapcontainer">
-            
-        </div>
+        <!-- <div id="mapcontainer"> -->
+            <!-- <img id="map" src="pictures/map.jpg" title="map" alt="map representation of my MSc journey" usemap="#journey" /> -->
 
-        <div id="picturecontainer">
-            
-        </div>
+            <!-- <map name="journey"> -->
+            <!-- <area shape="rect"x coords="34,44,270,350" alt="Computer" href="computer.htm"> -->
+            <!-- <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm"> -->
+            <!-- <area shape="circle" coords="40,43,100" alt="Boulders" href="somewhere.html"> -->
+            <!-- </map> -->
+
+            <img src="pictures/map.jpg" usemap="#image-map">
+
+            <map name="image-map">
+            <area target="" alt="Boulders at the start" title="Boulders at the start" href="" coords="71,438,48" shape="circle" id="startboulders">
+            <area target="" alt="How to build" title="How to build" href="" coords="298,116,35" shape="circle" id="howtobuild">
+            <area target="" alt="Smaller boulders" title="Smaller boulders" href="" coords="225,291,36" shape="circle" id="smallboulders">
+            <area target="" alt="Create and innovate" title="Create and innovate" href="" coords="466,225,40" shape="circle" id="createinnovate">
+            <area target="" alt="How to think" title="How to think" href="" coords="529,284,91" shape="circle" id="howtothink">
+            <area target="" alt="Collaborate" title="Collaborate" href="" coords="770,435,41" shape="circle" id="collaborate">
+            <area target="" alt="Carry on discovering" title="Carry on discovering" href="" coords="970,192,46" shape="circle" id="discovering">
+            <area target="" alt="The end goal" title="The end goal" href="" coords="877,46,60" shape="circle" id="endgoal">
+            </map>
+
+        <!-- </div> -->
+
+        <!-- <div id="picturecontainer"> -->
+            <img id="picture" src="pictures/spaceship.gif" title="spaceship" alt="spaceship travelling through the space of my msc journey" />
+
+        <!-- </div> -->
 
     </div>
     
